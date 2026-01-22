@@ -1,4 +1,4 @@
-/* main.css */
+    /* main.css */
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
@@ -1083,20 +1083,20 @@ body {
         --profile-gradient-role-pill-background: blue;
         --profile-gradient-role-pill-border: white;
         --profile-gradient-section-box: red;
-        --radio-background-active: Black;
-        --radio-background-default: White;
-        --radio-background-hover: white;
-        --radio-background-selected-default: White;
-        --radio-background-selected-hover: White;
-        --radio-border-active: yellow;
-        --radio-border-default: White;
-        --radio-border-hover: White;
-        --radio-border-selected-default: White;
-        --radio-border-selected-hover: White;
-        --radio-foreground-active: White;
-        --radio-foreground-default: White;
-        --radio-foreground-hover: White;
-        --radio-thumb-background-active: Black;
+        --radio-background-active: black;
+        --radio-background-default: #333333; /* dark gray */
+        --radio-background-hover: #444444; /* slightly lighter gray */
+        --radio-background-selected-default: #222222; /* almost black */
+        --radio-background-selected-hover: #555555; /* medium gray */
+        --radio-border-active: white;
+        --radio-border-default: #666666; /* gray border */
+        --radio-border-hover: #888888; /* lighter gray on hover */
+        --radio-border-selected-default: white;
+        --radio-border-selected-hover: #cccccc; /* subtle highlight */
+        --radio-foreground-active: white;
+        --radio-foreground-default: #eeeeee; /* light gray text/icons */
+        --radio-foreground-hover: white;
+        --radio-thumb-background-active: white;
         --redesign-button-active-background: red;
         --redesign-button-active-pressed-background: yellow;
         --redesign-button-active-text: White;
