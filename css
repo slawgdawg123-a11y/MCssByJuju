@@ -704,7 +704,7 @@ body {
 
     /* border colors */
     --border-light: hsl(230, 20%, 40%, 0.1); /* light border color */
-    --border: hsl(230, 20%, 40%, 0.2); /* normal border color */
+    --border: hsl(0°, 0%, 78%, 0.2); /* normal border color */
     --button-border: hsl(0, 0%, 100%, 0.1); /* neutral border color of buttons */
 
     /* base colors */
