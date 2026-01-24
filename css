@@ -2054,7 +2054,7 @@ body {
 }
 
 :root {
-        --theme-h: 222.85714285714283;
-        --theme-s: 6.666666666666663%;
-        --theme-l: 20.588235294117645%;
-    }
+  --theme-h: unset !important;
+  --theme-s: unset !important;
+  --theme-l: unset !important;
+}
