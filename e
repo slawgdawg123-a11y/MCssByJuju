@@ -800,18 +800,18 @@ body {
         --chat-background-default: var(--bg-3);
         --chat-border: White;
         --chat-text-muted: var(--text-5);
-        --checkbox-background-active: blue;
+        --checkbox-background-active: var(--bg-1);
         --checkbox-background-default: var(--bg-2);
-        --checkbox-background-hover: oklch(0.8 0.11 90)
-        --checkbox-background-selected-default: var(--accent-2);
+        --checkbox-background-hover: var(--bg-3);
+        --checkbox-background-selected-default: var(--bg-1);
         --checkbox-background-selected-hover: White;
-        --checkbox-border-active: blue;
+        --checkbox-border-active: var(--active);
         --checkbox-border-default: var(--border);
         --checkbox-border-hover: red;
         --checkbox-border-selected-default: yellow;
         --checkbox-border-selected-hover: White;
         --checkbox-icon-active: white;
-        --chip-blurple-dark-background: white;
+        --chip-blurple-dark-background: white;½
         --chip-blurple-dark-text: red;
         --chip-blurple-light-background: yellow;
         --chip-blurple-light-text: White;
