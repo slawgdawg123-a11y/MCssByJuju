@@ -807,8 +807,8 @@ body {
         --checkbox-background-selected-hover: White;
         --checkbox-border-active: var(--active);
         --checkbox-border-default: var(--border);
-        --checkbox-border-hover: red;
-        --checkbox-border-selected-default: yellow;
+        --checkbox-border-hover: white;
+        --checkbox-border-selected-default: white;
         --checkbox-border-selected-hover: White;
         --checkbox-icon-active: white;
         --chip-blurple-dark-background: white;½
