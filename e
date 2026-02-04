@@ -802,7 +802,7 @@ body {
         --chat-text-muted: var(--text-5);
         --checkbox-background-active: blue;
         --checkbox-background-default: var(--bg-2);
-        --checkbox-background-hover: red;
+        --checkbox-background-hover: oklch(0.8 0.11 90)
         --checkbox-background-selected-default: var(--accent-2);
         --checkbox-background-selected-hover: White;
         --checkbox-border-active: blue;
@@ -810,7 +810,7 @@ body {
         --checkbox-border-hover: red;
         --checkbox-border-selected-default: yellow;
         --checkbox-border-selected-hover: White;
-        --checkbox-icon-active: blue;
+        --checkbox-icon-active: white;
         --chip-blurple-dark-background: white;
         --chip-blurple-dark-text: red;
         --chip-blurple-light-background: yellow;
