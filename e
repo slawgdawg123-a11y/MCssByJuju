@@ -773,7 +773,7 @@ body {
         --background-tile-gradient-pink-start: White; */
         --badge-background-default: var(--accent-2);
         --badge-expressive-background-default: White;
-        --badge-expressive-text-default: red;
+        --badge-expressive-text-default: var(--bg-4);
         --badge-notification-background: var(--accent-new);
         --badge-text-default: var(--text-0);
         --bg-surface-overlay-tmp: var(--bg-3);
