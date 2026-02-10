@@ -696,11 +696,11 @@ body {
     --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */
 
     /* status indicator colors */
-    --online: hsla(139, 86%, 65%, 1);
-    --dnd: hsla(358, 83%, 59%, 1);
-    --idle: hsla(37, 96%, 54%, 1);
-    --streaming: hsla(262, 84%, 61%, 1);
-    --offline: hsla(0, 0%, 47%, 1);
+    --online: hsla(139, 86%, 65%, 1) !important;
+    --dnd: hsla(358, 83%, 59%, 1) !important;
+    --idle: hsla(37, 96%, 54%, 1) !important;
+    --streaming: hsla(262, 84%, 61%, 1) !important;
+    --offline: hsla(0, 0%, 47%, 1) !important;
 
     /* border colors */
     --border-light: hsl(230, 20%, 40%, 0.1); /* light border color */
