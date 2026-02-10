@@ -1181,7 +1181,7 @@ body {
         --text-code-title: red;
         --text-code-variable: yellow;
         --text-default: var(--text-3);
-        --text-feedback-critical: var(--red-1);
+        --text-feedback-critical: oklch(76% 0.12 0);
         --text-feedback-info: var(--accent-1);
         --text-feedback-positive: var(--green-1);
         --text-feedback-warning: var(--yellow-1);
