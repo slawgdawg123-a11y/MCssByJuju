@@ -707,37 +707,37 @@ body {
     --border: hsl(0°, 0%, 78%, 0.2); /* normal border color */
     --button-border: hsl(0, 0%, 100%, 0.1); /* neutral border color of buttons */
 
-    /* base colors */
-    /* pure black & white palette */
-    --red-1: #000000;
-    --red-2: #202020;
-    --red-3: #404040;
-    --red-4: #666666;
-    --red-5: #888888;
+/* pure black & white palette in OKLCH */
+--red-1: oklch(0% 0 0);
+--red-2: oklch(20% 0 0);
+--red-3: oklch(40% 0 0);
+--red-4: oklch(60% 0 0);
+--red-5: oklch(75% 0 0);
 
-    --green-1: #000000;
-    --green-2: #202020;
-    --green-3: #404040;
-    --green-4: #666666;
-    --green-5: #888888;
+--green-1: oklch(0% 0 0);
+--green-2: oklch(20% 0 0);
+--green-3: oklch(40% 0 0);
+--green-4: oklch(60% 0 0);
+--green-5: oklch(75% 0 0);
 
-    --blue-1: #000000;
-    --blue-2: #202020;
-    --blue-3: #404040;
-    --blue-4: #666666;
-    --blue-5: #888888;
+--blue-1: oklch(0% 0 0);
+--blue-2: oklch(20% 0 0);
+--blue-3: oklch(40% 0 0);
+--blue-4: oklch(60% 0 0);
+--blue-5: oklch(75% 0 0);
 
-    --yellow-1: #000000;
-    --yellow-2: #202020;
-    --yellow-3: #404040;
-    --yellow-4: #666666;
-    --yellow-5: #888888;
-    
-    --purple-1: oklch(76% 0.11 310);
-    --purple-2: oklch(70% 0.11 310);
-    --purple-3: oklch(64% 0.11 310);
-    --purple-4: oklch(58% 0.11 310);
-    --purple-5: oklch(52% 0.11 310);
+--yellow-1: oklch(0% 0 0);
+--yellow-2: oklch(20% 0 0);
+--yellow-3: oklch(40% 0 0);
+--yellow-4: oklch(60% 0 0);
+--yellow-5: oklch(75% 0 0);
+
+--purple-1: oklch(76% 0.11 310);
+--purple-2: oklch(70% 0.11 310);
+--purple-3: oklch(64% 0.11 310);
+--purple-4: oklch(58% 0.11 310);
+--purple-5: oklch(52% 0.11 310);
+
 }
 
 @container root style(--colors: on) {
