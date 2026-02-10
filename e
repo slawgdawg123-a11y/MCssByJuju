@@ -684,14 +684,14 @@ body {
     --message-hover: hsla(230, 0%, 0%, 0.1); /* messages when hovered */
 
     /* accent colors */
-    --accent-1: var(--blue-1); /* links and other accent text */
-    --accent-2: var(--blue-2); /* small accent elements */
-    --accent-3: var(--blue-3); /* accent buttons */
-    --accent-4: var(--blue-4); /* accent buttons when hovered */
-    --accent-5: var(--blue-5); /* accent buttons when clicked */
-    --accent-new: var(--blue-2); /* stuff that's normally red like mute/deafen buttons */
-    --mention: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
-    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--blue-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
+    --accent-1: var(--white-1); /* links and other accent text */
+    --accent-2: var(--white-2); /* small accent elements */
+    --accent-3: var(--white-3); /* accent buttons */
+    --accent-4: var(--white-4); /* accent buttons when hovered */
+    --accent-5: var(--white-5); /* accent buttons when clicked */
+    --accent-new: var(--white-2); /* stuff that's normally red like mute/deafen buttons */
+    --mention: linear-gradient(to right, color-mix(in hsl, var(--white-2), transparent 90%) 40%, transparent); /* background of messages that mention you */
+    --mention-hover: linear-gradient(to right, color-mix(in hsl, var(--white-2), transparent 95%) 40%, transparent); /* background of messages that mention you when hovered */
     --reply: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 90%) 40%, transparent); /* background of messages that reply to you */
     --reply-hover: linear-gradient(to right, color-mix(in hsl, var(--text-3), transparent 95%) 40%, transparent); /* background of messages that reply to you when hovered */
 
@@ -720,11 +720,11 @@ body {
 --green-4: oklch(60% 0 0);
 --green-5: oklch(75% 0 0);
 
---blue-1: oklch(0% 0 0);
---blue-2: oklch(20% 0 0);
---blue-3: oklch(40% 0 0);
---blue-4: oklch(60% 0 0);
---blue-5: oklch(75% 0 0);
+--white-1: oklch(0% 0 0);
+--white-2: oklch(20% 0 0);
+--white-3: oklch(40% 0 0);
+--white-4: oklch(60% 0 0);
+--white-5: oklch(75% 0 0);
 
 --yellow-1: oklch(0% 0 0);
 --yellow-2: oklch(20% 0 0);
@@ -754,9 +754,9 @@ body {
         --background-brand: var(--accent-2);
         --background-code: var(--bg-3);
         --background-code-addition: White;
-        --background-code-deletion: blue;
+        --background-code-deletion: white;
         --background-feedback-critical: color-mix(in hsl, var(--red-2), transparent 80%);
-        --background-feedback-info: color-mix(in hsl, var(--blue-2), transparent 80%);
+        --background-feedback-info: color-mix(in hsl, var(--white-2), transparent 80%);
         --background-feedback-positive: color-mix(in hsl, var(--green-2), transparent 80%);
         --background-feedback-warning: color-mix(in hsl, var(--yellow-2), transparent 80%);
         --background-feedback-notification: var(--accent-new);
@@ -778,7 +778,7 @@ body {
         --badge-notification-background: var(--accent-new);
         --badge-text-default: var(--text-0);
         --bg-surface-overlay-tmp: var(--bg-3);
-        --bg-surface-raised: blue;
+        --bg-surface-raised: white;
         --border-feedback-critical: white;
         --border-focus: red;
         --border-muted: var(--border-light);
@@ -786,12 +786,12 @@ body {
         --border-strong: var(--border);
         --border-subtle: var(--border);
         --button-danger-background-disabled: White;
-        --button-outline-brand-background-hover: blue;
+        --button-outline-brand-background-hover: white;
         --button-outline-brand-border-active: white;
         --button-outline-primary-text: var(--text-1);
         --card-background-default: var(--bg-3);
         --card-primary-pressed-bg: White;
-        --card-secondary-bg: blue;
+        --card-secondary-bg: white;
         --card-secondary-pressed-bg: white;
         --channel-icon: var(--text-4);
         --channel-text-area-placeholder: var(--text-5);
@@ -816,47 +816,47 @@ body {
         --chip-blurple-dark-text: red;
         --chip-blurple-light-background: yellow;
         --chip-blurple-light-text: White;
-        --chip-blurple-medium-background: blue;
+        --chip-blurple-medium-background: white;
         --chip-blurple-medium-text: white;
         --chip-gray-dark-background: red;
         --chip-gray-dark-text: yellow;
         --chip-gray-light-background: White;
-        --chip-gray-light-text: blue;
+        --chip-gray-light-text: white;
         --chip-gray-medium-background: white;
         --chip-gray-medium-text: red;
         --chip-green-dark-background: yellow;
         --chip-green-dark-text: White;
-        --chip-green-light-background: blue;
+        --chip-green-light-background: white;
         --chip-green-light-text: white;
         --chip-green-medium-background: red;
         --chip-green-medium-text: yellow;
         --chip-orange-dark-background: White;
-        --chip-orange-dark-text: blue;
+        --chip-orange-dark-text: white;
         --chip-orange-light-background: white;
         --chip-orange-light-text: red;
         --chip-orange-medium-background: yellow;
         --chip-orange-medium-text: White;
-        --chip-pink-dark-background: blue;
+        --chip-pink-dark-background: white;
         --chip-pink-dark-text: white;
         --chip-pink-light-background: red;
         --chip-pink-light-text: yellow;
         --chip-pink-medium-background: White;
-        --chip-pink-medium-text: blue;
+        --chip-pink-medium-text: white;
         --chip-purple-dark-background: white;
         --chip-purple-dark-text: red;
         --chip-purple-light-background: yellow;
         --chip-purple-light-text: White;
-        --chip-purple-medium-background: blue;
+        --chip-purple-medium-background: white;
         --chip-purple-medium-text: white;
         --chip-red-dark-background: red;
         --chip-red-dark-text: yellow;
         --chip-red-light-background: White;
-        --chip-red-light-text: blue;
+        --chip-red-light-text: white;
         --chip-red-medium-background: white;
         --chip-red-medium-text: red;
         --chip-yellow-dark-background: yellow;
         --chip-yellow-dark-text: White;
-        --chip-yellow-light-background: blue;
+        --chip-yellow-light-background: white;
         --chip-yellow-light-text: white;
         --chip-yellow-medium-background: red;
         --chip-yellow-medium-text: yellow;
@@ -969,48 +969,48 @@ body {
         --control-secondary-text-active: var(--text-3);
         --control-secondary-text-default: var(--text-3);
         --control-secondary-text-hover: var(--text-3);
-        --creator-revenue-icon-gradient-end: blue;
+        --creator-revenue-icon-gradient-end: white;
         --creator-revenue-icon-gradient-start: white;
         --creator-revenue-info-box-background: red;
         --creator-revenue-info-box-border: yellow;
         --creator-revenue-locked-channel-icon: White;
-        --creator-revenue-progress-bar: blue;
+        --creator-revenue-progress-bar: white;
         --embed-background: white;
         --embed-background-alternate: red;
         --experimental-avatar-embed-bg: yellow;
-        /* --expressive-gradient-blue-end: White;
-        --expressive-gradient-blue-start: blue;
+        /* --expressive-gradient-white-end: White;
+        --expressive-gradient-white-start: white;
         --expressive-gradient-green-end: white;
         --expressive-gradient-green-start: red;
         --expressive-gradient-nitro-green-end: yellow;
         --expressive-gradient-nitro-green-start: White;
-        --expressive-gradient-nitro-pink-end: blue;
+        --expressive-gradient-nitro-pink-end: white;
         --expressive-gradient-nitro-pink-start: white;
         --expressive-gradient-pink-end: red;
         --expressive-gradient-pink-start: yellow;
         --expressive-gradient-purple-end: White;
-        --expressive-gradient-purple-start: blue;
+        --expressive-gradient-purple-start: white;
         --expressive-gradient-tenure-badge-bronze-end: white;
         --expressive-gradient-tenure-badge-bronze-start: red;
         --expressive-gradient-tenure-badge-diamond-end: yellow;
         --expressive-gradient-tenure-badge-diamond-start: White;
-        --expressive-gradient-tenure-badge-emerald-end: blue;
+        --expressive-gradient-tenure-badge-emerald-end: white;
         --expressive-gradient-tenure-badge-emerald-start: white;
         --expressive-gradient-tenure-badge-gold-end: red;
         --expressive-gradient-tenure-badge-gold-start: yellow;
         --expressive-gradient-tenure-badge-opal-end: White;
-        --expressive-gradient-tenure-badge-opal-start: blue;
+        --expressive-gradient-tenure-badge-opal-start: white;
         --expressive-gradient-tenure-badge-platinum-end: white;
         --expressive-gradient-tenure-badge-platinum-start: red;
         --expressive-gradient-tenure-badge-ruby-end: yellow;
         --expressive-gradient-tenure-badge-ruby-start: White;
-        --expressive-gradient-tenure-badge-silver-end: blue;
+        --expressive-gradient-tenure-badge-silver-end: white;
         --expressive-gradient-tenure-badge-silver-start: white; */
         --gradient-progress-pill-background: var(--text-5);
         --home-background: var(--bg-4);
         --icon-default: White;
         --icon-feedback-critical: var(--red-1);
-        --icon-feedback-info: var(--blue-1);
+        --icon-feedback-info: var(--white-1);
         --icon-feedback-positive: var(--green-1);
         --icon-feedback-warning: var(--yellow-1);
         --icon-invert: white;
@@ -1028,7 +1028,7 @@ body {
         --input-border-active: var(--accent-2);
         --input-border-default: var(--border-light);
         --input-border-error-default: var(--red-2);
-        --input-border-error-hover: blue;
+        --input-border-error-hover: white;
         --input-border-hover: var(--border);
         --input-border-readonly: red;
         --input-foreground-placeholder: yellow;
@@ -1050,7 +1050,7 @@ body {
         --mention-background: color-mix(in hsl, var(--accent-2), transparent 90%);
         --mention-foreground: var(--accent-1);
         --message-automod-background-default: White;
-        --message-automod-background-hover: blue;
+        --message-automod-background-hover: white;
         --message-background-hover: var(--message-hover);
         --message-highlight-background-default: var(--reply);
         --message-highlight-background-hover: var(--reply-hover);
@@ -1065,7 +1065,7 @@ body {
         --modal-footer-background: var(--bg-4);
         --navigator-header-tint: White;
         --notice-background-critical: var(--red-3);
-        --notice-background-info: var(--blue-3);
+        --notice-background-info: var(--white-3);
         --notice-background-positive: var(--green-3);
         --notice-background-warning: var(--yellow-3);
         --notice-text-critical: var(--text-0);
@@ -1074,14 +1074,14 @@ body {
         --notice-text-warning: var(--text-0);
         --overlay-backdrop-lightbox: yellow;
         --panel-bg: White;
-        --polls-normal-image-background: blue;
+        --polls-normal-image-background: white;
         --polls-victor-fill: color-mix(in hsl, var(--green-2), transparent 90%);
         --polls-voted-fill: color-mix(in hsl, var(--accent-2), transparent 90%);
         /* --premium-nitro-pink-text: white; */
         --profile-gradient-note-background: red;
         --profile-gradient-overlay: yellow;
         --profile-gradient-overlay-synced-with-user-theme: White;
-        --profile-gradient-role-pill-background: blue;
+        --profile-gradient-role-pill-background: white;
         --profile-gradient-role-pill-border: white;
         --profile-gradient-section-box: red;
         --radio-background-active: black;
@@ -1101,7 +1101,7 @@ body {
         --redesign-button-active-background: red;
         --redesign-button-active-pressed-background: yellow;
         --redesign-button-active-text: White;
-        --redesign-button-danger-background: blue;
+        --redesign-button-danger-background: white;
         --redesign-button-destructive-background: white;
         --redesign-button-destructive-pressed-background: red;
         --redesign-button-destructive-text: yellow;
@@ -1111,28 +1111,28 @@ body {
         --redesign-button-positive-background: red;
         --redesign-button-premium-primary-pink-for-gradient: yellow;
         --redesign-button-premium-primary-pressed-background: White;
-        --redesign-button-premium-primary-purple-for-gradient: blue;
+        --redesign-button-premium-primary-purple-for-gradient: white;
         --redesign-button-premium-primary-purple-for-gradient-2: white;
         --redesign-button-primary-alt-border: red;
         --redesign-button-primary-background: yellow;
         --redesign-button-primary-overlay-background: White;
-        --redesign-button-primary-overlay-pressed-background: blue;
+        --redesign-button-primary-overlay-pressed-background: white;
         --redesign-button-primary-overlay-text: white;
         --redesign-button-primary-pressed-background: red;
         --redesign-button-primary-text: yellow;
         --redesign-button-secondary-background: var(--bg-2);
-        --redesign-button-secondary-border: blue;
+        --redesign-button-secondary-border: white;
         --redesign-button-secondary-overlay-background: white;
         --redesign-button-secondary-overlay-pressed-background: red;
         --redesign-button-secondary-overlay-text: yellow;
         --redesign-button-secondary-pressed-background: var(--bg-1);
-        --redesign-button-secondary-pressed-border: blue;
+        --redesign-button-secondary-pressed-border: white;
         --redesign-button-secondary-text: var(--text-3);
         --redesign-button-selected-background: white;
         --redesign-button-selected-pressed-background: red;
         --redesign-button-selected-text: yellow;
         --redesign-button-tertiary-background: White;
-        --redesign-button-tertiary-pressed-background: blue;
+        --redesign-button-tertiary-pressed-background: white;
         --redesign-button-tertiary-pressed-text: white;
         --redesign-button-tertiary-text: red;
         --scrollbar-auto-scrollbar-color-thumb: yellow;
@@ -1144,7 +1144,7 @@ body {
         --spine-default: var(--text-5);
         --spoiler-hidden-background: yellow;
         --spoiler-hidden-background-hover: White;
-        --spoiler-revealed-background: blue;
+        --spoiler-revealed-background: white;
         --status-danger: var(--red-2);
         --status-online: var(--green-2);
         --status-positive: var(--green-2);
@@ -1155,37 +1155,37 @@ body {
         --status-warning-background: red;
         --status-warning-text: yellow;
         --switch-background-active: White;
-        --switch-background-default: blue;
+        --switch-background-default: white;
         --switch-background-hover: white;
         --switch-background-selected-default: red;
         --switch-background-selected-hover: yellow;
         --switch-border-default: White;
-        --switch-border-hover: blue;
+        --switch-border-hover: white;
         --switch-border-selected-default: white;
         --switch-border-selected-hover: red;
         --switch-thumb-background-default: yellow;
         --switch-thumb-background-selected-default: White;
-        --switch-thumb-icon-active: blue;
+        --switch-thumb-icon-active: white;
         --switch-thumb-icon-default: white;
         --text-brand: var(--accent-1);
         --text-code: red;
         --text-code-addition: yellow;
         --text-code-builtin: White;
-        --text-code-bullet: blue;
+        --text-code-bullet: white;
         --text-code-comment: white;
         --text-code-deletion: red;
         --text-code-keyword: yellow;
         --text-code-section: White;
-        --text-code-string: blue;
+        --text-code-string: white;
         --text-code-tag: white;
         --text-code-title: red;
         --text-code-variable: yellow;
         --text-default: var(--text-3);
         --text-feedback-critical: oklch(76% 0.12 0);
-        --text-feedback-info: var(--accent-1);
-        --text-feedback-positive: var(--green-1);
-        --text-feedback-warning: var(--yellow-1);
-        --text-invert: blue;
+        --text-feedback-info: oklch(76% 0.1 215);
+        --text-feedback-positive: oklch(76% 0.11 170);
+        --text-feedback-warning: oklch(80% 0.11 90);
+        --text-invert: white;
         --text-link: var(--accent-1);
         --text-muted: var(--text-5);
         --text-overlay-dark: white;
@@ -1197,7 +1197,7 @@ body {
         --text-strong: var(--text-2);
         --text-subtle: var(--text-4);
         --textbox-markdown-syntax: var(--text-4);
-        --thread-channel-spine: blue;
+        --thread-channel-spine: white;
         --user-profile-activity-toolbar-background: white;
         --user-profile-background-hover: var(--hover);
         --user-profile-border: var(--border);
@@ -1610,7 +1610,7 @@ body {
     --dms-icon-color-after: var(--white); /* icon color when button is hovered/selected */
     --dms-background-image-url: url(''); /* url of the background image */
     --dms-background-image-size: cover; /* size of the background image (css background-size property) */
-    --dms-background-color: linear-gradient(70deg, var(--blue-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
+    --dms-background-color: linear-gradient(70deg, var(--white-2), var(--purple-2), var(--red-2)); /* fixed color/gradient (css background property) */
 }
 
 @property --custom-dms-icon {
