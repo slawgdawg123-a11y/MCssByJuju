@@ -1145,7 +1145,7 @@ body {
         --spoiler-hidden-background: yellow;
         --spoiler-hidden-background-hover: White;
         --spoiler-revealed-background: white;
-        --status-danger: var(--red-2);
+        --status-danger: var(--text-3);
         --status-online: var(--green-2);
         --status-positive: var(--green-2);
         --status-positive-background: var(--green-2);
