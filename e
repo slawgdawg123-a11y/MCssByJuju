@@ -1150,7 +1150,7 @@ body {
         --status-positive: var(--green-2);
         --status-positive-background: var(--green-2);
         --status-positive-text: white;
-        --status-speaking: var(--green-2);
+        --status-speaking: oklch(70% 0.11 170);
         --status-warning: var(--yellow-2);
         --status-warning-background: red;
         --status-warning-text: yellow;
