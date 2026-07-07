@@ -1189,7 +1189,7 @@ body {
         --text-link: var(--accent-1);
         --text-muted: var(--text-5);
         --text-overlay-dark: white;
-        --text-overlay-light: red;
+        --text-overlay-light: white;
         --text-status-dnd: var(--dnd);
         --text-status-idle: var(--idle);
         --text-status-offline: var(--offline);
