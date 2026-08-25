@@ -1426,14 +1426,14 @@ body {
         --white-500: var(--text-3);
     }
 
-    ._3b95d7d910416e54-unread /* new unreads bar (channel list */,
+    ._3b95d7d910416e54-unread /* new unreads bar (channel list) */,
         .caf372efc4d47562-item /* settings items */,
         ._972a0d22c8afa7f0-interactive /* dms list items */ {
         color: var(--text-4);
     }
 
     .f1ceaca61b18918e-colorable.f1ceaca61b18918e-white /* vc icon button nub when white */ {
-        background-color: var(--primary-130);
+        background-color: var(--text-3);
         color: var(--bg-4);
     }
 
@@ -1521,14 +1521,6 @@ body {
 
     ._23977d5b7cef7361-reactionBtn._23977d5b7cef7361-forceShow:hover /* fix add reaction button border hover */ {
         border-color: var(--bg-2);
-    }
-
-    ._034365f2217df5de-flash[data-flash=true] /* reply message flash */ {
-        background: var(--background-message-highlight);
-    }
-
-    ._8a031a135bfcb9ba-container /* modal background */ {
-        background-color: var(--bg-4);
     }
 
     ._034365f2217df5de-flash[data-flash='true'] /* reply message flash */ {
@@ -1747,7 +1739,7 @@ body {
         transition: background-color 0.15s ease-out;
 
         &:hover {
-            background-color: var(--bg-brand);
+            background-color: var(--accent-2);
 
             ._9293f6b2fc12398a-icon {
                 color: var(--white);
@@ -1925,12 +1917,12 @@ body {
 
 @container body style(--panel-blur: on) {
     #app-mount {
-        --panel-backdrop-filter: blur(var(--blur-amount));
+        --panel-backdrop-filter: blur(var(--blur-amount, 16px));
     }
 
     .popoverReactionHoverBar_f84418 /* message hover quick action bar */,
         .c36707910f687430-tooltip /* tooltips */ {
-        background: var(--bg-floating);
+        background: var(--bg-3);
     }
     .c1e9c47c23f12ca3-menu /* context menus */,
         ._084343c4f11eaaab-contentWrapper /* emoji/gif panel */,
@@ -1941,7 +1933,7 @@ body {
         .e8b59c4b335dd2fc-messagesPopoutWrap /* inbox */,
         ._76f047ded9fef6d4-popout /* channel hover popout */,
         ._7aaec78b97ff00f7-bar /* channel list new unreads bar */ {
-        background: var(--bg-floating);
+        background: var(--bg-3);
     }
 }
 
